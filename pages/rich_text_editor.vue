@@ -68,7 +68,7 @@ export default {
         }
     },
     mounted() {
-        this.content = `<h2>MikuTools - 一个轻量的工具集合</h2>`;
+        this.content = `<h2>USE.IM - 一个轻量的工具集合</h2>`;
     },
     methods: {}
 };

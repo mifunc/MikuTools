@@ -500,11 +500,11 @@ export const state = () => {
                 {
                     name: '工具隐藏',
                     path: '/hide_tool'
-                },
-                {
-                    name: '友情链接',
-                    path: '/links'
-                }
+                }//,
+                // {
+                //     name: '友情链接',
+                //     path: '/links'
+                // }
             ]
         }
     ];
@@ -526,8 +526,8 @@ export const state = () => {
             }
             if (tool.head.keywords) {
                 tool.head.keywords = tool.head.keywords.concat([
-                    'MikuTools',
-                    'Ice-Hazymoon',
+                    'USE.IM',
+                    'USE',
                     '在线工具'
                 ]);
                 head.meta.push({

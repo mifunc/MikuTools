@@ -64,7 +64,8 @@
 
         <nya-container v-if="!$store.state.setting.hideNotice" v-show="!searchText" title="公告" icon="volume-down-outline">
             <ul class="nya-list">
-                <li>本项目基于 <a href="https://github.com/Ice-Hazymoon/MikuTools" target="_blank" rel="noopener noreferrer">MikuTools</a> 构建而成</li>
+                <!-- <li>本项目基于 <a href="###" target="_blank" rel="noopener noreferrer">MikuTools</a> 构建而成</li> -->
+                <li>本项目基于 MikuTools 构建而成</li>
                 <li>
                     <div class="badge-info">
                         <span class="badge hot">热门</span> <span class="badge vip">VIP</span> <span class="badge new">新功能</span> <span class="badge recommend">推荐</span>
@@ -84,7 +85,7 @@
             </ul>
         </nya-container>
 
-        <nya-container v-if="!$store.state.setting.hidePay" v-show="!searchText" title="打赏" icon="credit-card-outline">
+        <!-- <nya-container v-if="!$store.state.setting.hidePay" v-show="!searchText" title="打赏" icon="credit-card-outline">
             <ul class="pay">
                 <li>
                     <img src="../assets/qq.png" alt="qq">
@@ -105,7 +106,7 @@
                     </div>
                 </li>
             </ul>
-        </nya-container>
+        </nya-container> -->
     </div>
 </template>
 

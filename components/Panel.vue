@@ -1,8 +1,8 @@
 <template>
     <div class="panel" icon="person-outline">
-        <div class="login-text">
+        <!-- <div class="login-text">
             <a href="https://github.com/Ice-Hazymoon/MikuTools" target="_blank" rel="noopener noreferrer">Powered by MikuTools</a>
-        </div>
+        </div> -->
     </div>
 </template>
 

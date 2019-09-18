@@ -9,11 +9,11 @@ install:
 cache:
   directories:
     - node_modules
-after_script:
-  - cd ./dist
-  - git init
-  - git config user.name "Ice-Hazymoon"
-  - git config user.email "imiku.me@gmail.com"
-  - git add .
-  - git commit -m "automated build"
-  - git push --quiet --force https://${REPO_TOKEN}@github.com/Ice-Hazymoon/MikuTools.git master
+# after_script:
+#   - cd ./dist
+#   - git init
+#   - git config user.name "imnginx"
+#   - git config user.email "xenry@163.com"
+#   - git add .
+#   - git commit -m "automated build"
+#   - git push --quiet --force https://git.dev.tencent.com/imnginx/use.git master

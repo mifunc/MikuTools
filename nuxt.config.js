@@ -24,7 +24,7 @@ export default {
      ** Headers of the page
      */
     head: {
-        title: `MikuTools - 一个轻量的工具集合`,
+        title: `USE.IM - 一个轻量的工具集合`,
         meta: [
             {
                 charset: 'utf-8'
@@ -56,7 +56,7 @@ export default {
             },
             {
                 property: 'og:site_name',
-                content: 'MikuTools'
+                content: 'USE.IM'
             },
             {
                 name: 'mobile-web-app-capable',
@@ -64,7 +64,7 @@ export default {
             },
             {
                 name: 'apple-mobile-web-app-title',
-                content: 'MikuTools'
+                content: 'USE.IM'
             },
             {
                 name: 'apple-mobile-web-app-status-bar-style',
@@ -211,8 +211,8 @@ export default {
     manifest: {
         description: '收集实用的小工具',
         display: 'standalone',
-        name: 'MikuTools',
-        short_name: 'MikuTools',
+        name: 'use.im',
+        short_name: 'use.im',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
